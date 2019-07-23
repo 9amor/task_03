@@ -5,6 +5,11 @@
         <title>List</title>
     </head>
     <body>
+    	
+   {% for myloop in my_list %}
+   <h2> {{myloop.restaurant_name}} </h2>
+   <p> {{myloop.food_type}}</p>
+   {% endfor %}
 
     </body>
 </html>
